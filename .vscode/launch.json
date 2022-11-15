@@ -4,11 +4,13 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+
         {
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}/<executable file>",
+            "program": "${workspaceFolder}/cel_to_fahr/target/debug/cel_to_fahr.exe",
             "args": [],
             "cwd": "${workspaceFolder}"
         }
